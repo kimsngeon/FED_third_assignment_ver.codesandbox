@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  text-align: center;
+  line-height: 0.5;
+  color: white;
+  font-family: "Prompt", sans-serif;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+
+.load-box {
+  margin-top: 10vh;
+}
+
+.scallops {
+  padding: 0;
+  margin-top: 5vh;
+  height: 30px;
+}
+
+button {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-family: "Prompt", sans-serif;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  border: 2px solid pink;
+  color: pink;
+}
+
+.arrow {
+  font-size: 50px;
+  border: none;
+}
+
+.arrow:hover {
+  font-size: 50px;
+  border: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  height: 110px;
+}
+
+li {
+  padding: 0;
+  list-style-type: none;
+
+  background: white;
+  border-radius: 0 0 50% 50%;
+  width: 4%;
+  height: 3vw;
+  float: left;
+}
+
+.favorite-box {
+  text-align: center;
+  margin-top: 5vh;
+  padding-bottom: 50px;
+
+  font-size: 3vh;
+}
+
+#savedListItem {
+  display: inline-block;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+}
